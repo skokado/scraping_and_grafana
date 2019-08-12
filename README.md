@@ -111,8 +111,8 @@ In default, username and password: `admin/admin`.
 Select "Add data source" and influxdb.
 
 ![Setup data source](doc/grafana3.png "setup1")<br>
-![Setup data source](doc/grafana3.png "setup1")<br>
-![Setup data source](doc/grafana3.png "setup1")<br>
+![Setup data source](doc/grafana4.png "setup1")<br>
+![Setup data source](doc/grafana5.png "setup1")<br>
 
 Input data source information(In default)
 - URL: `http://scraping_and_grafana_influxdb_1:8086`
