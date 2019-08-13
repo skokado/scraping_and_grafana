@@ -26,6 +26,14 @@
 
 ## setup
 
+### First
+
+```shell
+$ git clone https://github.com/skokado/scraping_and_grafana
+$ cd scraping_and_grafana
+$ mkdir influxdb # Create data directory of influxdb.
+```
+
 ### Create database
 
 First, run a container from official image.
@@ -80,9 +88,12 @@ ENV INFLUXDB_HOST="Your_Container_Name" \
 ```
 ※When using docker-compose, `INFLUXDB_HOST` defaults to `scraping_and_grafana_influxdb_1` in this app.
 
-### Add permission of grafana
+### Add permission of grafana data directory
 
-`chmod 777 grafana/data`
+```shell
+$ mkdir grafana/data
+$ chmod 777 grafana/data
+```
 
 ## Run containers
 
