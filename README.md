@@ -24,6 +24,32 @@
 
 # Usage
 
+## Rerquirement
+
+### docker
+```
+$ docker -v
+Docker version 1.13.1, build 1185cfd/1.13.1
+```
+
+### docker-compose
+```shell
+$ docker-compose -v
+docker-compose version 1.24.1, build 4667896b
+```
+
+### Conainer images
+- python: 3.7.4-alpine3.10
+- grafana: 6.3.2
+- influxdb: 1.7
+```shell
+$ docker images
+REPOSITORY                  TAG                 IMAGE ID            CREATED             SIZE
+docker.io/grafana/grafana   6.3.2               076e8bb899f2        5 days ago          254 MB
+docker.io/python            3.7.4-alpine3.10    930a7e894675        2 weeks ago         98.7 MB
+docker.io/influxdb          1.7                 d1e103e42e17        4 weeks ago         258 MB
+```
+
 ## setup
 
 ### First
