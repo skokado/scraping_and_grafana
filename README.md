@@ -62,10 +62,10 @@ $ mkdir influxdb # Create data directory of influxdb.
 
 ### Create database
 
-First, run a container from official image.
+Next, run a container from official image.
 
 ```shell
-$ docker run -d --rm --name infludb \
+$ docker run -d --rm --name influxdb \
   -p 8086:8086 \
   -v `pwd`/influxdb:/var/lib/influxdb \
   docker.io/influxdb:1.7
